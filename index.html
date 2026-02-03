@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Minithra's Baking Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minithra's Hobby Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,21 +14,21 @@
         header {
             background-color: #ff6f61;
             color: white;
-            padding: 40px 0;
+            padding: 40px 20px;
             text-align: center;
         }
         section {
             padding: 50px 20px;
             text-align: center;
         }
-        #recipes {
-            background-color: #ffe5d9; /* light orange */
+        #projects {
+            background-color: #ffe5d9;
         }
         #tips {
-            background-color: #f0e5ff; /* light purple */
+            background-color: #f0e5ff;
         }
         #contact {
-            background-color: #d9f0ff; /* light blue */
+            background-color: #d9f0ff;
         }
         h1 {
             font-size: 40px;
@@ -36,16 +38,67 @@
             font-size: 32px;
             margin-bottom: 20px;
         }
-        p {
+        p, li {
             font-size: 18px;
             color: #555;
             max-width: 600px;
             margin: auto;
         }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
         footer {
             background-color: #222;
             color: white;
             padding: 20px 0;
+            text-align: center;
         }
-        </body>
-        </html>
+        a {
+            color: #ff6f61;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Hobby Website</h1>
+        <p>Explore and enjoy fun projects and tips!</p>
+    </header>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>Here are some projects or activities you can try:</p>
+        <ul>
+            <li>• Project 1: Chocolate Cake</li>
+            <li>• Project 2: Banana Muffins</li>
+            <li>• Project 3: Veggie Quiche</li>
+        </ul>
+    </section>
+
+    <section id="tips">
+        <h2>Tips & Tricks</h2>
+        <p>Quick tips to help you get started:</p>
+        <ul>
+            <li>• Always follow instructions carefully</li>
+            <li>• Use fresh ingredients or materials</li>
+            <li>• Practice regularly to improve skills</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:yourmail@example.com">yourmail@example.com</a></p>
+        <p>Instagram: <a href="https://instagram.com/yourusername" target="_blank">@yourusername</a></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Minithra. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
